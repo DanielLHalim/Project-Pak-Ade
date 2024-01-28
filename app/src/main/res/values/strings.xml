@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AplikasiPertama22</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnSave">Save</string>
+    <string name="text">AKU ADALAH</string>
+    <string name="nama">Nama</string>
+    <string name="studentID">Student ID</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="hobi">Hobi</string>
+    <string name="oke">Oke</string>
 </resources>
