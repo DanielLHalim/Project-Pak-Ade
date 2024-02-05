@@ -6,4 +6,6 @@
     <dimen name="hurufKecil">8pt</dimen>
     <dimen name="kiri">20dp</dimen>
     <dimen name="input">22dp</dimen>
+    <dimen name="nama">12dp</dimen>
+    <dimen name="hurufL">12dp</dimen>
 </resources>

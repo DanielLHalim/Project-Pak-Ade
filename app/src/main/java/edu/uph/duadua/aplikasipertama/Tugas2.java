@@ -5,8 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class Tugas2 extends AppCompatActivity {
     TextView textView17;
@@ -16,6 +20,7 @@ public class Tugas2 extends AppCompatActivity {
     TextView textView23;
 
     Button button6;
+    FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,5 +36,14 @@ public class Tugas2 extends AppCompatActivity {
         textView23.setText("Badminton");
         button6 = (Button) findViewById(R.id.button6);
         button6.setBackgroundColor(Color.BLUE);
+
+        fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Here's a Snackbar", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
     }
 }

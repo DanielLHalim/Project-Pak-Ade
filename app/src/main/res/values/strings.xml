@@ -8,4 +8,21 @@
     <string name="jurusan">Jurusan</string>
     <string name="hobi">Hobi</string>
     <string name="oke">Oke</string>
+    <string name="submit2">Submit</string>
+    <string name="tambah">Tambah</string>
+    <string name="produktif">ProDuktiv</string>
+    <string name="tempat">Tempat kegiatan :</string>
+    <string name="jenis">Jenis Kegiatan :</string>
+    <string name="luar">Luar ruangan</string>
+    <string name="dalam">Dalam ruangan</string>
+    <string name="olahraga">Olahraga</string>
+    <string name="jalan">Jalan-jalan</string>
+    <string name="makan">Makan</string>
+    <string name="belajar">Belajar</string>
+    <string name="stringNama">Nama :</string>
+    <string name="stringStdid">StudentId :</string>
+    <string name="stringJurusan">Jurusan :</string>
+    <string name="stringHobi">Hobi :</string>
+    <string name="btn1">OKE</string>
+    <string name="submit">Submit</string>
 </resources>
