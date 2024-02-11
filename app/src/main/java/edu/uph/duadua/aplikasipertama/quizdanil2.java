@@ -29,7 +29,7 @@ public class quizdanil2 extends AppCompatActivity {
         checkBox2 = findViewById(R.id.checkBox2);
         checkBox3 = findViewById(R.id.checkBox3);
         checkBox4 = findViewById(R.id.checkBox4);
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        radioGroup = findViewById(R.id.radioGroup); // Removed unnecessary casting
 
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -64,7 +64,5 @@ public class quizdanil2 extends AppCompatActivity {
             }
 
         });
-
-
     }
 }

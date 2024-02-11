@@ -21,7 +21,7 @@ public class Tugas3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // Ganti dengan R.layout.tugas3 jika nama file XML adalah tugas3.xml
+        setContentView(R.layout.activity_tugas3); // Ganti dengan R.layout.tugas3 jika nama file XML adalah tugas3.xml
 
         // Initialize your views
         editNama = findViewById(R.id.editNama);
